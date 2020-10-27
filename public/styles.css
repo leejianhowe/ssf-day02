@@ -10,6 +10,7 @@ img {
 a {
   text-align: center;
 }
-.center {
+.image,
+.text {
   text-align: center;
 }

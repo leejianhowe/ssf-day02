@@ -17,8 +17,8 @@ app.get('/', (req,res,next)=>{
 })
 app.get('/roll', (req,res,next)=>{
 
-    const dice1 = Math.floor((Math.random()*5)+1)
-    const dice2 = Math.floor((Math.random()*5)+1)
+    const dice1 = Math.floor((Math.random()*6)+1)
+    const dice2 = Math.floor((Math.random()*6)+1)
     res.render('roll', {dice1: dice1, dice2: dice2})
 })
 app.use((req,res)=>{
